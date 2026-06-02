@@ -36,12 +36,18 @@ A FastAPI-based library management system with JWT authentication and role-based
    venv\Scripts\activate
    ```
 3. Install dependencies:
+   ```bash
    pip install -r requirements.txt
+   ```bash
 
-4. Create an env file:
+5. Create an env file:
+   ```bash
    SECRET_KEY=your_secret_key_here
    ALGORITHM=HS256
    ACCESS_TOKEN_EXPIRE_MINUTES=30
+   ```bash
 
-5. Run the app:
+7. Run the app:
+   ```bash
    uvicorn app.main:app --reload
+   ```bash
